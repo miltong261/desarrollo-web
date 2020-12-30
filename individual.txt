@@ -1,0 +1,8 @@
+Cliente = Jorge 
+Proveedor = María José 
+Producto = Milton
+Categoría = Juan 
+Unidad de medida = Ajanel
+
+//CRUD 
+estado -> cambiar estado el delete

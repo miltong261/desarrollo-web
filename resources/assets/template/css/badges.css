@@ -1,0 +1,89 @@
+.badge {
+    border: 1px solid #000; 
+}
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    vertical-align: baseline; border-radius: 5px; 
+}
+.badge:empty {
+    display: none; 
+}
+.btn .badge {
+    position: relative;
+    top: -1px; }
+  
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em; }
+
+.badge-primary {
+  color: #fff;
+  background-color: #20a8d8; }
+  .badge-primary[href]:focus, .badge-primary[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1985ac; }
+
+.badge-secondary {
+  color: #111;
+  background-color: #a4b7c1; }
+  .badge-secondary[href]:focus, .badge-secondary[href]:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #869fac; }
+
+.badge-success {
+  color: #fff;
+  background-color: #3a9d5d; border: 0;}
+  .badge-success[href]:focus, .badge-success[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3a9d5d; }
+
+.badge-info {
+  color: #111;
+  background-color: #63c2de; border: 0;}
+.badge-info[href]:focus, .badge-info[href]:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #39b2d5; }
+
+.badge-warning {
+  color: #111;
+  background-color: #ffc107; }
+.badge-warning[href]:focus, .badge-warning[href]:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #d39e00; }
+
+.badge-danger {
+  color: #fff;
+  background-color: #f63c3a; border: 0;}
+.badge-danger[href]:focus, .badge-danger[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f63c3a; }
+
+.badge-light {
+  color: #111;
+  background-color: #f0f3f5; }
+.badge-light[href]:focus, .badge-light[href]:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #d1dbe1; }
+
+.badge-dark {
+  color: #fff;
+  background-color: #29363d; }
+.badge-dark[href]:focus, .badge-dark[href]:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #151b1f; }
